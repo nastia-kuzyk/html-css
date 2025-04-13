@@ -1,0 +1,32 @@
+body{
+margin: 2%;
+}
+header{
+    background-color: #7070dc;
+    height: 50vh;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+
+}
+section{
+    background-color: #505098;
+    height: 50vh;
+    width: 30%;
+
+}
+footer{
+    background-color: #7070dc;
+    height: 90vh;
+}
+header, section, footer{
+    color: #dcdbdb;
+    text-align: center;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

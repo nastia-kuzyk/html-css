@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+
+}
+section p{
+    width: 80%;
+}
+section a{
+    color: black;
+}
+#pink{
+    background-color: #cd9f7c;
+}
+#blue{
+    background-color: #4040bf;
+}
+#green{
+    background-color: #399739;
+}
