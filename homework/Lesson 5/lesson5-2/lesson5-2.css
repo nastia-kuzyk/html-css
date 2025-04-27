@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1E1E1E;
+}
+.wrapper-1340{
+    width: 1340px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+nav{
+    width: 100%;
+    padding: 36px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 59px;
+}
+ul a {
+    color: #E9E3DC;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 97%;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav_active-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 203px;
+    height: 60px;
+    top: 36px;
+    left: 1186px;
+    background: #B3A0CD;
+    color: #1E1E1E;
+}
+.header-title{
+    width: 1255px;
+    color: #E9E3DC;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-size: 107.09px;
+    font-style: normal;
+    line-height: 89%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 74px auto 33px auto;
+}
+.header-img{
+    display: block;
+    margin: 0 auto;
+}
+.section-about-burgers{
+    background: #D1EF53;
+    width: 1340px;
+    height: 369px;
+    top: 916px;
+    left: 50px;
+    border-radius: 30px;
+    border: 4px solid #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+.section-about-burgers h2{
+    Width: 533px;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    font-style: normal;
+    line-height: 89%;
+    text-transform: uppercase;
+    color: #1E1E1E;
+}
+.section-about-burgers p{
+    width: 521px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 140%;
+    color: #1E1E1E;
+    margin-bottom: 34px;
+}
+.section-about-burgers button{
+    border: 4px solid #1E1E1E;
+    width: 176px;
+    height: 60px;
+    background: #E9E3DC;
+    box-shadow: 8px 8px 0px 0px #000000;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 97%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E1E1E;
+}
+.img-burger{
+    width: 100%;
+    padding: 64px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h2-order-outline{
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    font-style: normal;
+    line-height: 102%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E9E3DC;
+    width: 895px;
+    margin: 64px 0 33px 0;
+}
+.button-Get-Started{
+    width: 196px;
+    height: 60px;
+    background: #D1EF53;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 97%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    border: none;
+    margin-bottom: 30px;
+}
