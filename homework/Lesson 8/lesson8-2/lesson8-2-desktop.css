@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1180px;
+    margin: 0 auto;
+    padding: 20px 0;
+    gap: 20px;
+}
+.card{
+    height: 271px;
+    width: 280px;
+}
+.card img{
+    width: 100%;
+    height: 279px;
+    border-radius: 50%;
+}
+.card h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #161543;
+    font-style: normal;
+    margin: 20px 0 10px 0;
+}
+.card p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    font-style: normal;
+    color: #7687A1;
+}
