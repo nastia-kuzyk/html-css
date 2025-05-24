@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+.wrapper{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "container1 spam1"
+    "container2 spam1"
+    "container2 spam2"
+    "container3 spam2"
+    "footer footer"
+}
+header{
+    grid-area: header;
+    background: #8D8484;
+    color: #000000;
+
+}
+footer{
+    grid-area: footer;
+    background: #BDBDBD;
+    color: #000000;
+}
+.container-content1{
+    grid-area: container1;
+    background: #776969;
+    color: #FFFFFF;
+
+}
+.container-content2{
+    grid-area: container2;
+    background: #643030;
+    color: #FFFFFF;
+}
+.container-content3{
+    grid-area: container3;
+    background: #441818;
+    color: #FFFFFF;
+}
+.spam1{
+    grid-area: spam1;
+    background: #937575;
+    color: #FFFFFF;
+}
+.spam2{
+    grid-area: spam2;
+    background: #644C4C;
+    color: #FFFFFF;
+
+}
